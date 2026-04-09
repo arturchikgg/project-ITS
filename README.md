@@ -1,25 +1,39 @@
-# Nickname Generator Project
+# 🎮 Nickname Generator
 
-## Overview
-This project is a simple nickname generator that creates fun and unique nicknames based on user input. It uses a combination of predefined name parts and randomization to produce interesting results.
+Простой и мощный генератор никнеймов на Python.
 
-## Features
-- Generates nicknames based on user input.
-- Customizable name parts.
-- User-friendly interface.
+## 📋 Описание
 
-## Installation
-Clone this repository to your local machine:
-```bash
-git clone https://github.com/arturchikgg/project-ITS.git
-```
+Этот проект генерирует случайные никнеймы в разных стилях:
+- **Simple** - базовые комбинации (например: `FastTiger`)
+- **Numbers** - с цифрами (например: `FastTiger42`)
+- **Underscores** - с подчёркиваниями (например: `Fast_Tiger`)
 
-## Usage
-1. Navigate to the project directory.
-2. Run the generator script.
+## 🚀 Быстрый старт
 
-## Contributing
-If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
+### Требования
+- Python 3.6+
+- Никаких внешних зависимостей!
 
-## License
-This project is licensed under the MIT License.
+### Использование
+
+```python
+from main import generate_nickname
+
+# Генерируем никнейм в простом стиле
+nickname = generate_nickname('simple')
+print(nickname)  # Пример: FastTiger
+
+# С числами
+nickname = generate_nickname('numbers')
+print(nickname)  # Пример: FastTiger42
+
+# С подчёркиваниями
+nickname = generate_nickname('underscores')
+print(nickname)  # Пример: Fast_Tiger
+
+📄 Лицензия
+MIT License
+
+👤 Автор
+arturchikgg
