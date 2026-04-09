@@ -32,8 +32,8 @@ print(nickname)  # Пример: FastTiger42
 nickname = generate_nickname('underscores')
 print(nickname)  # Пример: Fast_Tiger
 
-📄 Лицензия
-MIT License
+### 📄 Лицензия
+- MIT License
 
-👤 Автор
-arturchikgg
+### 👤 Автор
+- arturchikgg
