@@ -9,6 +9,12 @@
 - **Numbers** - с цифрами (например: `FastTiger42`)
 - **Underscores** - с подчёркиваниями (например: `Fast_Tiger`)
 
+### 📄 Лицензия
+- MIT License
+
+### 👤 Автор
+- arturchikgg
+
 ## 🚀 Быстрый старт
 
 ### Требования
@@ -32,8 +38,3 @@ print(nickname)  # Пример: FastTiger42
 nickname = generate_nickname('underscores')
 print(nickname)  # Пример: Fast_Tiger
 
-### 📄 Лицензия
-- MIT License
-
-### 👤 Автор
-- arturchikgg
